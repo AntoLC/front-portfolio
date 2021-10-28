@@ -24,3 +24,7 @@
         transform: rotate3d(-3, 3, 6, 30deg);
     }
 }
+
+/*body{
+    overflow: hidden;
+}*/
