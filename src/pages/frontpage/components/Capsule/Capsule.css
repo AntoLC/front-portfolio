@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .capsule-bg{
+        background: linear-gradient(45deg, #24a53a 0%,#84f11b 100%);
+    }
+    .capsule-top{
+        background: linear-gradient(to bottom, #f20f23 0%, #f2b020 100%);
+        transform: rotate(-45deg);
+        left: -15px;
+        bottom: 10px;
+    }
+    .capsule-bottom{
+        background: linear-gradient(to bottom, #AE38EF 0%, #7C07E4 100%);
+        transform: rotate(45deg);
+        left: -15px;
+        top: 10px;
+    }
+}
+
+.capsule-bg::after{
+    content: "";
+    width: 45px;
+    height: 45px;
+    background: #ffffff;
+    position: absolute;
+    right: -20px;
+    border-radius: 10px;
+    top: -20px;
+}

@@ -1,6 +1,6 @@
 # Quick Portfolio
 
-Most of my react projects are B2B internal products, so I do this quick portfolio to showcase what I can easily do in frontend.
+Quick portfolio to showcase what I can easily do in frontend.
 In this showcase, I will use [Tailwind CSS](https://tailwindcss.com/), and [Recoil](https://recoiljs.org/) as a state management.
 
 I will base my portfolio on these Dribbble Project.
