@@ -1,6 +1,6 @@
 import react from "react";
 import { Capsule } from "./components/Capsule/Capsule";
-import './Frontpage.css';
+import './Frontpage.scss';
 
 export const Frontpage = () => {
     return (

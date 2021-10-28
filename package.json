@@ -45,6 +45,8 @@
   },
   "devDependencies": {
     "autoprefixer": "9",
-    "postcss": "7"
+    "node-sass": "4.14.1",
+    "postcss": "7",
+    "sass-loader": "12.1.0"
   }
 }
