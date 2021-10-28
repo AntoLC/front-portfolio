@@ -4,7 +4,7 @@ import './Frontpage.scss';
 
 export const Frontpage = () => {
     return (
-    <div className="frontpage-fkelfsed234 h-screen">
+    <div className={ "Frontpage-" + global.app_config.CSS_ID + " h-screen"}>
         <div className="h-10">
             <div className="font-sans text-2xl text-gray-800 font-black mx-5">Capsule</div>
         </div>

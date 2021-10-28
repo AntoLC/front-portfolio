@@ -1,5 +1,5 @@
 import react from "react";
-import './Capsule.css';
+import './Capsule.scss';
 
 interface CapsuleProps {
     isLogo?: boolean;
@@ -7,9 +7,9 @@ interface CapsuleProps {
 
 export const Capsule = (props: CapsuleProps) => {
     const { isLogo } = props;
-
+    
     return (
-    <div className={"capsule relative w-52 "+ (isLogo ? "capsule-logo" : "") }>
+    <div className={"Capsule-" + global.app_config.CSS_ID + " relative w-52 "+ (isLogo ? "capsule-logo" : "") }>
         <div className="capsule-bg rounded-lg z-0 transform rotate-45 absolute"/>
         <div className="capsule-pills z-10 absolute">
             <div className="capsule-size capsule-top rounded-tl-full rounded-tr-full relative"/>

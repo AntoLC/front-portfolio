@@ -1,8 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'config.module';
 
-@layer utilities {
+.Capsule-#{$CSS-ID} {
     .capsule-powder-1-abs{
         top:15px;
         left: -20px;
@@ -38,6 +36,7 @@
         height: 102px;
         width: 102px;
         top:-10px;
+        clip-path: polygon(56% 0%, 100% 100%, 0% 100%, 0 0%);
     }
     .capsule-pills{
         top: -37px;
@@ -56,27 +55,21 @@
         transform: rotate(45deg);
         bottom: -14px;
     }
-    .capsule-logo{
-        position:absolute!important;
-        right:0;
-        zoom: 0.4;
-    }
-    .capsule-logo .capsule-top,
-    .capsule-logo .capsule-bottom,
-    .capsule-logo .capsule-bg,
-    .capsule-logo .capsule-powder-bg1,
-    .capsule-logo .capsule-powder-bg2{
-        background: #fff;
-    }
 }
 
-.capsule-bg::after{
-    content: "";
-    width: 45px;
-    height: 45px;
-    background: #ffffff;
-    position: absolute;
-    right: -10px;
-    border-radius: 10px;
-    top: -10px;
+/**
+*   Create a small version of it    
+*/
+.Capsule-#{$CSS-ID}.capsule-logo{
+    position:absolute!important;
+    right:0;
+    zoom: 0.4;
+
+    .capsule-top,
+    .capsule-bottom,
+    .capsule-bg,
+    .capsule-powder-bg1,
+    .capsule-powder-bg2{
+        background: #fff;
+    }
 }

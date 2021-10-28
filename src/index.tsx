@@ -5,7 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import config from './config.module.scss';
 
-console.debug("config.CSS_ID", config.CSS_ID);
 global.app_config = {CSS_ID: config.CSS_ID};
 
 ReactDOM.render(
