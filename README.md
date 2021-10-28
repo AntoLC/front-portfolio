@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+# Quick Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Most of my react projects are B2B internal products, so I do this quick portfolio to showcase what I can easily do in frontend.
+In this showcase, I will use [Tailwind CSS](https://tailwindcss.com/), and [Recoil](https://recoiljs.org/) as a state management.
+
+I will base my portfolio on these Dribbble Project.
+
+![Capsule](https://cdn.dribbble.com/users/7237996/screenshots/16744319/media/aba3423c2d5f5d05af8bd6da3cc62824.jpg?compress=1&resize=1200x900)
+
+![https://dribbble.com/shots/16737256-Defenders-App](https://cdn.dribbble.com/users/5031392/screenshots/16737256/media/7ce50fd6b4a6f2ee5911246a3f8e55d9.png?compress=1&resize=1000x750)
+
+![https://dribbble.com/shots/16741029-Music-Streaming-Web-App](https://cdn.dribbble.com/users/2168386/screenshots/16741029/media/62b3b523a2d48e7b0eae7ae049306579.png?compress=1&resize=1200x900)
+
+![https://dribbble.com/ssnabilla](https://cdn.dribbble.com/users/2685252/screenshots/16736995/media/d805c7cba191166c80bdca12598cd850.png?compress=1&resize=1200x900)
+
 
 ## Available Scripts
 
@@ -13,34 +25,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
