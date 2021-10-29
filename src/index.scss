@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 
 body {
@@ -19,8 +20,11 @@ code {
     monospace;
 }
 
-/*@font-face {
-  font-family: Poppins500;
-  font-display: fallback;
-  src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-}*/
+img, svg, video, canvas, audio, iframe, embed, object {
+  display: initial;
+  vertical-align: middle;
+}
+img, video {
+  max-width: auto;
+  height: auto;
+}

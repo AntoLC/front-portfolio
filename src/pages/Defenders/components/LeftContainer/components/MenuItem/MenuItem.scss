@@ -1,0 +1,9 @@
+@import 'config.module';
+
+.MenuItem-#{$CSS-ID}:hover {
+  background-color: #22D0AE;
+
+  .text-gray-100{
+      color: #111111;
+  }
+}

@@ -1,6 +1,10 @@
 @import 'config.module';
 
 .LeftContainer-#{$CSS-ID} {
+    .pl-1D4{
+        padding-left: 25%;
+    }
+
   .site-name{
     background: linear-gradient(45deg, #24d0ad 0%,#4dbd3b 100%);
     -webkit-background-clip: text;
@@ -9,5 +13,4 @@
   .site-slogan{
       font-size: 10px;
   }
-  
 }
