@@ -1,9 +1,10 @@
 @import 'config.module';
 
-.Capsule-#{$CSS-ID} {
-    top: -37px;
-    left: 47px;
-    
+.FullCapsule-#{$CSS-ID} {
+    .capsule-pills{
+        top: -37px;
+        left: 47px;
+    }
     .capsule-size{
         height: 70px;
         width: 50px;
@@ -16,5 +17,21 @@
         background: linear-gradient(to bottom, #AE38EF 0%, #7C07E4 100%);
         transform: rotate(45deg);
         bottom: -15px;
+    }
+}
+
+/**
+*   Create a small version of it    
+*/
+.FullCapsule-#{$CSS-ID}.capsule-logo{
+    zoom: 0.4;
+
+    .capsule-top,
+    .capsule-bottom,
+    .capsule-bg,
+    .capsule-powder-bg1,
+    .capsule-powder-bg2,
+    .LetterC-#{$CSS-ID}{
+        background: #fff;
     }
 }

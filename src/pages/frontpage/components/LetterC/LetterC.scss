@@ -1,0 +1,9 @@
+@import 'config.module';
+
+.LetterC-#{$CSS-ID} {
+    background: linear-gradient(45deg, #24a53a 0%,#84f11b 100%);
+    height: 102px;
+    width: 102px;
+    top:-10px;
+    clip-path: polygon(56% 0%, 100% 100%, 0% 100%, 0 0%);
+}

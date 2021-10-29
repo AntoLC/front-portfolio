@@ -1,0 +1,34 @@
+@import 'config.module';
+
+.Ingredients-#{$CSS-ID} {
+    .capsule-powder-1-abs{
+        top:15px;
+        left: -20px;
+    }
+    .capsule-powder-2-abs{
+        top:35px;
+        left: -10px;
+    }
+    .capsule-powder-3-abs{
+        top:12px;
+        left: 0px;
+    }
+    .capsule-powder-4-abs{
+        top:32px;
+        left: 10px;
+    }
+    .capsule-powder-5-abs{
+        top:15px;
+        left: 20px;
+    }
+    .capsule-powder-6-abs{
+        top:29px;
+        left: 30px;
+    }
+    .capsule-powder-bg1{
+        background: #7B05E2;
+    }
+    .capsule-powder-bg2{
+        background: #F10F23;
+    }
+}
