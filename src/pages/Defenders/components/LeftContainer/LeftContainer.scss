@@ -1,0 +1,13 @@
+@import 'config.module';
+
+.LeftContainer-#{$CSS-ID} {
+  .site-name{
+    background: linear-gradient(45deg, #24d0ad 0%,#4dbd3b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .site-slogan{
+      font-size: 10px;
+  }
+  
+}

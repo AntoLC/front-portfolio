@@ -4,17 +4,35 @@ body{
   overflow: hidden;
 }
 
+$primary-bg: #0D0D0D;
+$second-bg: #111;
+
 .Defenders-#{$CSS-ID} {
-  .container-main{
+  &.bg-gray-bg{
+    background-color: #232323;
+  }
+
+  .container-big-main{
     box-shadow: inset 0px 4px 8px #080b12;
 
     .container-shadow-1{
-      opacity: 0.3;
+      background-color: rgba($primary-bg, .5);
       transform: rotate(3deg);
     }
     .container-shadow-2{
-      opacity: 0.3;
+      background-color: rgba($primary-bg, .3);
       transform: rotate(-5deg);
+    }
+
+    .container-main{
+      grid-template-columns: 20% auto 33%;
+      background-color: $primary-bg;
+
+      .LeftContainer-#{$CSS-ID},
+      .RightContainer-#{$CSS-ID}
+      {
+        background-color: $second-bg;
+      }
     }
   }
   
