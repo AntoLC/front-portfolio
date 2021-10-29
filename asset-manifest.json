@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/front-portfolio/static/css/main.d40fdd97.chunk.css",
-    "main.js": "/front-portfolio/static/js/main.6ea1b000.chunk.js",
-    "main.js.map": "/front-portfolio/static/js/main.6ea1b000.chunk.js.map",
-    "runtime-main.js": "/front-portfolio/static/js/runtime-main.f5471bbc.js",
-    "runtime-main.js.map": "/front-portfolio/static/js/runtime-main.f5471bbc.js.map",
-    "static/js/2.130c64af.chunk.js": "/front-portfolio/static/js/2.130c64af.chunk.js",
-    "static/js/2.130c64af.chunk.js.map": "/front-portfolio/static/js/2.130c64af.chunk.js.map",
-    "static/js/3.fde9a9ab.chunk.js": "/front-portfolio/static/js/3.fde9a9ab.chunk.js",
-    "static/js/3.fde9a9ab.chunk.js.map": "/front-portfolio/static/js/3.fde9a9ab.chunk.js.map",
+    "main.css": "/front-portfolio/static/css/main.cc540071.chunk.css",
+    "main.js": "/front-portfolio/static/js/main.297e2dd2.chunk.js",
+    "main.js.map": "/front-portfolio/static/js/main.297e2dd2.chunk.js.map",
+    "runtime-main.js": "/front-portfolio/static/js/runtime-main.6b4aeaca.js",
+    "runtime-main.js.map": "/front-portfolio/static/js/runtime-main.6b4aeaca.js.map",
+    "static/js/2.c38e8bc3.chunk.js": "/front-portfolio/static/js/2.c38e8bc3.chunk.js",
+    "static/js/2.c38e8bc3.chunk.js.map": "/front-portfolio/static/js/2.c38e8bc3.chunk.js.map",
+    "static/js/3.e16413a8.chunk.js": "/front-portfolio/static/js/3.e16413a8.chunk.js",
+    "static/js/3.e16413a8.chunk.js.map": "/front-portfolio/static/js/3.e16413a8.chunk.js.map",
     "index.html": "/front-portfolio/index.html",
-    "static/css/main.d40fdd97.chunk.css.map": "/front-portfolio/static/css/main.d40fdd97.chunk.css.map",
-    "static/js/2.130c64af.chunk.js.LICENSE.txt": "/front-portfolio/static/js/2.130c64af.chunk.js.LICENSE.txt"
+    "static/css/main.cc540071.chunk.css.map": "/front-portfolio/static/css/main.cc540071.chunk.css.map",
+    "static/js/2.c38e8bc3.chunk.js.LICENSE.txt": "/front-portfolio/static/js/2.c38e8bc3.chunk.js.LICENSE.txt",
+    "static/media/spiderman.png": "/front-portfolio/static/media/spiderman.bae60b0e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f5471bbc.js",
-    "static/js/2.130c64af.chunk.js",
-    "static/css/main.d40fdd97.chunk.css",
-    "static/js/main.6ea1b000.chunk.js"
+    "static/js/runtime-main.6b4aeaca.js",
+    "static/js/2.c38e8bc3.chunk.js",
+    "static/css/main.cc540071.chunk.css",
+    "static/js/main.297e2dd2.chunk.js"
   ]
 }
