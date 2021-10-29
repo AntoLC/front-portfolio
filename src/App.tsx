@@ -15,7 +15,7 @@ function App() {
     <div className={ "App App-" + global.app_config.CSS_ID}>
       <Router>
         <Switch>
-          <Route path="/defenders"><Defenders/></Route>
+          <Route path="*/defenders"><Defenders/></Route>
           <Route path="/"><Frontpage/></Route>
         </Switch>
       </Router>
