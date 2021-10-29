@@ -16,7 +16,6 @@ function App() {
       <Router>
         <Switch>
           <Route path="/defenders"><Defenders/></Route>
-          <Route path="/"><Defenders/></Route>
           <Route path="/"><Frontpage/></Route>
         </Switch>
       </Router>

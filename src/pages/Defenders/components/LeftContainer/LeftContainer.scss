@@ -5,12 +5,45 @@
         padding-left: 25%;
     }
 
+    .background-gradient{
+        background: linear-gradient(45deg, #24d0ad 0%,#4dbd3b 100%);
+    }
+    .background-origin{
+        background: #111111;
+    }
+
   .site-name{
-    background: linear-gradient(45deg, #24d0ad 0%,#4dbd3b 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   .site-slogan{
       font-size: 10px;
+  }
+
+  .container-point-effect{
+    background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:transparent;
+    background-size:15px 15px;
+
+    .container-opacity-effect{
+        background: radial-gradient(ellipse at center, transparent 0%,#111 100%);
+    }
+    img{
+        width: 113px;
+    }
+  }
+
+  .background-gradient .site-slogan{
+    transition: font-size 0.8s ease-out;
+  }
+
+  .background-gradient:hover{
+    .site-slogan {
+        font-size: 15px;
+    }
   }
 }

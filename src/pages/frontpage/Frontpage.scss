@@ -1,9 +1,5 @@
 @import 'config.module';
 
-body{
-  overflow: hidden;
-}
-
 .Frontpage-#{$CSS-ID} {
   .form-top-right{
     background: linear-gradient(to right, #f20f23 0%, #f2b020 100%);
