@@ -1,0 +1,21 @@
+@import 'config.module';
+
+body{
+  overflow: hidden;
+}
+
+.Defenders-#{$CSS-ID} {
+  .container-main{
+    box-shadow: inset 0px 4px 8px #080b12;
+
+    .container-shadow-1{
+      opacity: 0.3;
+      transform: rotate(3deg);
+    }
+    .container-shadow-2{
+      opacity: 0.3;
+      transform: rotate(-5deg);
+    }
+  }
+  
+}
