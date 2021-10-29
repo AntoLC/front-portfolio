@@ -44,4 +44,11 @@ body{
       }
     }
   }
+  .container-capsule-b-r{
+    .FullCapsule-#{$CSS-ID} {
+      zoom: 0.22;
+    }
+
+    box-shadow: 3px 3px 13px #b5b5b5, -5px -5px 8px #ffffff;
+  }
 }

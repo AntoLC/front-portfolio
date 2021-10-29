@@ -1,7 +1,6 @@
 import { Capsule } from "./components/Capsule/Capsule";
 import { FullCapsule } from "./components/FullCapsule/FullCapsule";
 import { Ingredients } from "./components/Ingredients/Ingredients";
-import { LetterC } from "./components/LetterC/LetterC";
 import './Frontpage.scss';
 
 export const Frontpage = () => {
@@ -35,6 +34,9 @@ export const Frontpage = () => {
                 <Capsule css=" relative left-12 -top-4 w-32 h-32 m-auto "/>
                 <div className="font-sans text-white text-center p-2">Capsule</div>
             </div>
+        </div>
+        <div className="container-capsule-b-r absolute right-8 bottom-10 w-12 h-12 p-2 pt-4 rounded-lg cursor-pointer bg-white">
+            <FullCapsule/>
         </div>
     </div>
     );
