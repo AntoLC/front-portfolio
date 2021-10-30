@@ -1,0 +1,13 @@
+@import '../../../../Defenders-config.scss';
+
+.SearchBar-#{$CSS-ID} {
+  background-color: $second-bg;
+
+  input,
+  .material-icons
+  {
+    background-color: $third-bg;
+    vertical-align: top;
+    color:#8a929e;
+  }
+}

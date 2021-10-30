@@ -1,7 +1,7 @@
-@import 'config.module';
+@import '../../../../Defenders-config.scss';
 
 .MenuItem-#{$CSS-ID}:hover {
-  background-color: #22D0AE;
+  background-color: $primary-border;
 
   .text-gray-100{
       color: #111111;

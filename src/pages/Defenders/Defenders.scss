@@ -1,11 +1,4 @@
-@import 'config.module';
-
-/*body{
-  overflow: hidden;
-}*/
-
-$primary-bg: #0D0D0D;
-$second-bg: #111;
+@import './Defenders-config.scss';
 
 .Defenders-#{$CSS-ID} {
   padding: 60px 0px 70px;

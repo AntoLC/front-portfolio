@@ -1,4 +1,4 @@
-@import 'config.module';
+@import '../../Defenders-config.scss';
 
 .LeftContainer-#{$CSS-ID} {
     .pl-1D4{
@@ -6,10 +6,10 @@
     }
 
     .background-gradient{
-        background: linear-gradient(45deg, #24d0ad 0%,#4dbd3b 100%);
+        background: linear-gradient(45deg, $primary-border 0%,$second-border 100%);
     }
     .background-origin{
-        background: #111111;
+        background: $second-bg;
     }
 
   .site-name{
@@ -30,7 +30,7 @@
     background-size:15px 15px;
 
     .container-opacity-effect{
-        background: radial-gradient(ellipse at center, transparent 0%,#111 100%);
+        background: radial-gradient(ellipse at center, transparent 0%,$second-bg 100%);
     }
     img{
         width: 113px;
