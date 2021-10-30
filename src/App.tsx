@@ -1,9 +1,6 @@
 import {
-  BrowserRouter as Router,
   Switch,
   Route,
-  Link,
-  useRouteMatch,
   HashRouter
 } from "react-router-dom";
 import './App.scss';

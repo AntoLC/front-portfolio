@@ -1,13 +1,31 @@
 @import '../../../../Defenders-config.scss';
 
+$color-el:#8a929e;
+
 .SearchBar-#{$CSS-ID} {
   background-color: $second-bg;
 
+  input:active,
+  input:focus,
+  input:focus-within
+  {
+    border-right: 1px solid #004c55;
+  }
   input,
-  .material-icons
+  .input-icons
   {
     background-color: $third-bg;
     vertical-align: top;
-    color:#8a929e;
+    color:$color-el;
+    outline: none;
+    border-right: 1px solid transparent;
+    transition: all 0.3s ease-in;
+  }
+  .notif-icon{
+    border-right: 1px solid #373737;
+  }
+  img{
+    filter: blur(0.2px);
+    height: 34px;
   }
 }
