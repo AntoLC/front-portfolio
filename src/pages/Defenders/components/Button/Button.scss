@@ -1,0 +1,6 @@
+@import '../../Defenders-config.scss';
+
+.Button-#{$CSS-ID} {
+  
+    background: linear-gradient(45deg, $primary-border 0%,$second-border 100%);
+}

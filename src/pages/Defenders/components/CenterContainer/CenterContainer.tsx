@@ -7,12 +7,14 @@ export const CenterContainer = () => {
             name:"Deadpool",
             star:4,
             agency:"X-Men",
+            agency_logo:"cancel",
             src:"deadpool.jpg"
         },
         {
             name:"Hulk",
             star:5,
             agency:"The Shield",
+            agency_logo:"gpp_maybe",
             src:"hulk-scare.jpg"
         }
     ];

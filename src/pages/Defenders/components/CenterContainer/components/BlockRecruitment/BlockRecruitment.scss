@@ -3,5 +3,9 @@
 $color-el:#8a929e;
 
 .BlockRecruitment-#{$CSS-ID} {
+  width: 48%;
   
+  .container-filter{
+    backdrop-filter: brightness(0.7);
+  }
 }
