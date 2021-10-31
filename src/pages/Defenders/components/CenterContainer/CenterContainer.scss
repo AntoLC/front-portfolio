@@ -1,6 +1,8 @@
-@import 'config.module';
+@import '../../Defenders-config.scss';
 
 .CenterContainer-#{$CSS-ID} {
-  
+  .agency-container{
+    background-color: $second-bg;
+  }
   
 }
