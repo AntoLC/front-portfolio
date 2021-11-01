@@ -12,12 +12,12 @@
         "mind":5
     },
     {
-        "name":"Rock",
+        "name":"Thing",
         "star":3,
         "agency":"Fantastic Four",
         "agency_logo":"gpp_maybe",
         "src":"defenders/fourf.jpg",
-        "src_employ":"defenders/fourf.jpg",
+        "src_employ":"defenders/thing.png",
         "guarding": 10,
         "aggression": 7,
         "courage":8,
