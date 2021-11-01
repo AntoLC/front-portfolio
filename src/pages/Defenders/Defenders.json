@@ -1,0 +1,37 @@
+[
+    {
+        "name":"Deadpool",
+        "star":4,
+        "agency":"X-Men",
+        "agency_logo":"cancel",
+        "src":"deadpool.jpg",
+        "guarding": 9,
+        "aggression": 10,
+        "courage":10,
+        "mind":5
+    },
+    {
+        "name":"Rock",
+        "star":3,
+        "agency":"Fantastic Four",
+        "agency_logo":"gpp_maybe",
+        "src":"fourf.jpg",
+        "guarding": 10,
+        "aggression": 7,
+        "courage":8,
+        "mind":7
+    },
+    {
+        "name":"Hulk",
+        "star":5,
+        "agency":"The Shield",
+        "agency_logo":"gpp_maybe",
+        "src":"hulk-scare.jpg",
+        "guarding": 10,
+        "aggression": 10,
+        "courage":10,
+        "mind":2
+    }
+]
+
+    

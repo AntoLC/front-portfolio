@@ -1,0 +1,8 @@
+@import '../../Defenders-config.scss';
+
+
+.Agency-#{$CSS-ID} {
+    &.with-bg{
+        background-color: $third-bg;
+    }
+}
