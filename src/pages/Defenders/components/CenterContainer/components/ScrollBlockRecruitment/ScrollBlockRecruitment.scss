@@ -1,0 +1,9 @@
+@import '../../../../Defenders-config.scss';
+
+
+.ScrollBlockRecruitment-#{$CSS-ID} {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: 38vw;
+}

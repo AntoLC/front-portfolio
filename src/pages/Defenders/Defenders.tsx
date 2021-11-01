@@ -3,6 +3,18 @@ import { LeftContainer } from './components/LeftContainer/LeftContainer';
 import { RightContainer } from './components/RightContainer/RightContainer';
 import './Defenders.scss';
 
+export type DefendersType = {
+    name:string;
+    star:number;
+    agency:string;
+    agency_logo:string;
+    src:string;
+    guarding:number;
+    aggression:number;
+    courage:number;
+    mind:number;
+}
+
 export const Defenders = () => {
     return (
     <div className={ "Defenders-" + global.app_config.CSS_ID + " bg-gray-bg flex flex-wrap content-center justify-center"}>
