@@ -9,6 +9,7 @@ export type DefendersType = {
     agency:string;
     agency_logo:string;
     src:string;
+    src_employ:string;
     guarding:number;
     aggression:number;
     courage:number;
