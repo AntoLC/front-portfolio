@@ -1,8 +1,8 @@
 import './CenterContainer.scss';
 import { Agency } from '../Agency/Agency';
 import { SearchBar } from './components/SearchBar/SearchBar';
-import Defenders from '../../Defenders.json';
 import { ScrollBlockRecruitment } from './components/ScrollBlockRecruitment/ScrollBlockRecruitment';
+import { Defenders } from '../../DefendersModel';
 
 export const CenterContainer = () => {
     return (

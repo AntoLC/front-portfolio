@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import { DefendersType } from '../../../../Defenders';
+import { DefendersType } from '../../../../DefendersModel';
 import { BlockRecruitment } from '../BlockRecruitment/BlockRecruitment';
 import './ScrollBlockRecruitment.scss';
 
@@ -17,14 +17,14 @@ export const ScrollBlockRecruitment = (props:BlockRecruitmentProps) => {
     const [arrowRight, setArrowRight] = useState<string>(textWhite);
     
     const handleClickBack = () => {
-        if(scrollBlockRecruitment == null || scrollBlockRecruitment.current == null ) return;
+        if(!scrollBlockRecruitment || !scrollBlockRecruitment.current ) return;
         scrollBlockRecruitment.current.scrollTo({ behavior: 'smooth', left:0 });
         setArrowRight(textWhite);
         setArrowLeft(textGray);
     };
 
     const handleClickForward = () => {
-        if(scrollBlockRecruitment == null || scrollBlockRecruitment.current == null ) return;
+        if(!scrollBlockRecruitment || !scrollBlockRecruitment.current ) return;
         scrollBlockRecruitment.current.scrollTo({ behavior: 'smooth', left:880 });
         setArrowRight(textGray);
         setArrowLeft(textWhite);

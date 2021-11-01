@@ -55,7 +55,7 @@ export const Defender = (prop: DefenderProps) => {
                 </div>
             </div>
         </div>
-        <div className="text-center mt-5"><Button>Employ</Button></div>
+        <div className="text-center mt-5"><Button onClick={()=>{}} >Employ</Button></div>
     </div>
     );
 }

@@ -1,15 +1,26 @@
-import { DefendersType } from '../../../../Defenders';
+import { DefendersType, _defenderAtom } from '../../../../DefendersModel';
 import { Button } from '../../../Button/Button';
 import { Stars } from '../../../Stars/Stars';
 import './BlockRecruitment.scss';
-
+import { useRecoilState } from 'recoil';
 
 interface BlockRecruitmentProps {
     defender: DefendersType
 }
 
+/**
+ * Click Button - Close
+ * - Reduce grid right
+ * - Increase scrollrecruitement
+ * - right: -375px content grid right
+ * - Put Arrow all grey
+ * @param props 
+ * @returns 
+ */
+
 export const BlockRecruitment = (props:BlockRecruitmentProps) => {
     const {defender} = props;
+    const [defenderAtom, setDefenderAtom] = useRecoilState(_defenderAtom);
 
     return (
         <div className={"BlockRecruitment-" + global.app_config.CSS_ID + " rounded-2xl bg-no-repeat bg-cover bg-center mt-5 inline-block"} style={{ backgroundImage: `url(${process.env.REACT_APP_SRC + defender.src })` }}>
@@ -23,7 +34,7 @@ export const BlockRecruitment = (props:BlockRecruitmentProps) => {
                         <span className="ml-2 align-middle font-sans text-white">{defender.agency}</span>
                     </div>
                 </div>
-                <Button>Employ</Button>
+                <Button onClick={() => setDefenderAtom(defender)}>Employ</Button>
             </div>
         </div>
     );
