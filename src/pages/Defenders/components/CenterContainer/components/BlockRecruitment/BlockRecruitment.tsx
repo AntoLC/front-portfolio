@@ -1,4 +1,4 @@
-import { DefendersType, _defenderAtom } from '../../../../DefendersModel';
+import { DefendersType, _defenderAtom, _defenderVisibilityAtom } from '../../../../DefendersModel';
 import { Button } from '../../../Button/Button';
 import { Stars } from '../../../Stars/Stars';
 import './BlockRecruitment.scss';
@@ -21,20 +21,21 @@ interface BlockRecruitmentProps {
 export const BlockRecruitment = (props:BlockRecruitmentProps) => {
     const {defender} = props;
     const [defenderAtom, setDefenderAtom] = useRecoilState(_defenderAtom);
+    const [defenderVisibility, setDefenderVisibility] = useRecoilState(_defenderVisibilityAtom);
 
     return (
         <div className={"BlockRecruitment-" + global.app_config.CSS_ID + " rounded-2xl bg-no-repeat bg-cover bg-center mt-5 inline-block"} style={{ backgroundImage: `url(${process.env.REACT_APP_SRC + defender.src })` }}>
-            <div className="container-filter p-4 flex justify-between flex-col">
+            <div className="container-filter p-2 sm:p-4 flex justify-between flex-col">
                 <div>
                     <p className="font-sans text-white">{defender.name}</p>
                         {<Stars number={defender.star}/>}
-                    <p className="font-sans mt-4 text-gray-400 text-sm">Agency</p>
-                    <div className="mb-11">
+                    <p className="font-sans mt-2 sm:mt-4 text-gray-400 text-sm">Agency</p>
+                    <div className="">
                         <span className="align-middle material-icons text-white">{defender.agency_logo}</span>
                         <span className="ml-2 align-middle font-sans text-white">{defender.agency}</span>
                     </div>
                 </div>
-                <Button onClick={() => setDefenderAtom(defender)}>Employ</Button>
+                <Button onClick={() => {setDefenderAtom(defender);setDefenderVisibility(true);}}>Employ</Button>
             </div>
         </div>
     );

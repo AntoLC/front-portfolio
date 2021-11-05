@@ -1,4 +1,5 @@
-import { DefendersType } from '../../../DefendersModel';
+import { useRecoilState } from 'recoil';
+import { DefendersType, _defenderVisibilityAtom } from '../../../DefendersModel';
 import { Agency } from '../../Agency/Agency';
 import { Button } from '../../Button/Button';
 import './Defender.scss';
@@ -9,9 +10,10 @@ interface DefenderProps {
 
 export const Defender = (prop: DefenderProps) => {
     const defender = prop.defender;
+    const [defenderVisibility, setDefenderVisibility] = useRecoilState(_defenderVisibilityAtom);
 
     return (
-    <div className={ "Defender-" + global.app_config.CSS_ID + " rounded-r-3xl p-7 pb-0"}>
+    <div className={ "Defender-" + global.app_config.CSS_ID + " rounded-r-3xl p-0 sm:p-7 sm:pb-0"}>
         <div className="container-point-effect">
             <div className="container-opacity-effect">
                 <img className="m-auto" src={process.env.REACT_APP_SRC + defender.src_employ } alt="avenger" />
@@ -45,7 +47,7 @@ export const Defender = (prop: DefenderProps) => {
                 </div>
             </div>
         </div>
-        <div className="text-center mt-5"><Button onClick={()=>{}} >Employ</Button></div>
+        <div className="text-center mt-5"><Button onClick={()=>{setDefenderVisibility(false)}}>Employ</Button></div>
     </div>
     );
 }

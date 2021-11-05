@@ -1,6 +1,10 @@
 @import 'config.module';
 
 .RightContainer-#{$CSS-ID} {
-  
+    transform: translateX(100%);
+    transition: transform 0.7s ease-in-out;
+    &.transition{
+      transform: translateX(0%);
+    }
   
 }

@@ -2,8 +2,15 @@
 
 
 .ScrollBlockRecruitment-#{$CSS-ID} {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  white-space: nowrap;
-  width: 38vw;
+  .scroller{
+    width: 96vw;
+  }
+}
+
+@media (min-width: $sm) {
+  .ScrollBlockRecruitment-#{$CSS-ID} {
+    .scroller{
+      width: 38vw;
+    }
+  }
 }

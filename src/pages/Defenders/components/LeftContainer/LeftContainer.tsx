@@ -2,10 +2,26 @@ import './LeftContainer.scss';
 import logo_avenger from './img/logo-avenger.png';
 import spiderman from './img/spiderman.png';
 import { MenuItem } from './components/MenuItem/MenuItem';
+import { useEffect, useState } from 'react';
+import { useRecoilState } from 'recoil';
+import { _defenderMenuVisibilityAtom } from '../../DefendersModel';
 
 export const LeftContainer = () => {
+    const hidden = " ";
+    const block = " transition";
+    const [visibility, setVisibility] = useState<string>(hidden);
+    const [defenderMenuVisibility, setDefenderMenuVisibility] = useRecoilState(_defenderMenuVisibilityAtom);
+
+    useEffect(() => {
+        (defenderMenuVisibility) ? setVisibility(block) : setVisibility(hidden);
+        return ()=>{};
+    }, [defenderMenuVisibility]);
+
     return (
-    <div className={ "LeftContainer-" + global.app_config.CSS_ID + " rounded-l-3xl pt-6 pb-6 flex justify-between flex-col"}>
+    <div className={ "LeftContainer-" + global.app_config.CSS_ID + visibility + " absolute top-0 z-10 w-full sm:flex rounded-l-3xl pt-6 pb-6 justify-between flex-col"}>
+        <div className="absolute right-5">
+            <span className="material-icons text-white cursor-pointer text-sm" onClick={()=> setDefenderMenuVisibility(false)}>close</span>
+        </div>
         <div>
             <div className="container-logo text-center mb-4">
                 <img className="m-auto" src={logo_avenger} alt="logo_avenger" />

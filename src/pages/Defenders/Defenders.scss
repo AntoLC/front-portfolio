@@ -1,9 +1,6 @@
 @import './Defenders-config.scss';
 
 .Defenders-#{$CSS-ID} {
-  padding: 60px 0px 70px;
-  min-height: 100vh;
-
   &.bg-gray-bg{
     background-color: #232323;
   }
@@ -22,7 +19,6 @@
     }
 
     .container-main{
-      grid-template-columns: 20% auto 33%;
       background-color: $primary-bg;
 
       .LeftContainer-#{$CSS-ID},
@@ -32,5 +28,12 @@
       }
     }
   }
-  
+}
+
+@media (min-width: $sm) {
+  .Defenders-#{$CSS-ID} {
+    .container-main{
+      grid-template-columns: 20% auto 33%;
+    }
+  }
 }

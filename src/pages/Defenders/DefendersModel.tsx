@@ -1,4 +1,4 @@
-import { atom, selector } from 'recoil';
+import { atom, selector, useRecoilCallback } from 'recoil';
 import _Defenders from './Defenders.json';
 
 export const Defenders = _Defenders;
@@ -20,4 +20,19 @@ const defenderKey = 'defender';
 export const _defenderAtom = atom({
     key: defenderKey,
     default: Defenders[0]
+});
+const defenderSearchKey = 'defenderSearch';
+export const _defenderSearchAtom = atom({
+    key: defenderSearchKey,
+    default: ''
+});
+const defenderVisibilityKey = 'defenderVisibility';
+export const _defenderVisibilityAtom = atom({
+    key: defenderVisibilityKey,
+    default: false
+});
+const defenderMenuVisibilityKey = 'defenderMenuVisibility';
+export const _defenderMenuVisibilityAtom = atom({
+    key: defenderMenuVisibilityKey,
+    default: false
 });

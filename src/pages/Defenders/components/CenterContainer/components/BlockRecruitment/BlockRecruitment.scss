@@ -3,12 +3,20 @@
 $color-el:#8a929e;
 
 .BlockRecruitment-#{$CSS-ID} {
-  width: 18vw;
-  height: 18vw;
+  width: 47vw;
+  height: 47vw;
   margin: 0.5vw;
   
   .container-filter{
     backdrop-filter: brightness(0.7);
     height: inherit;
+  }
+}
+
+@media (min-width: $sm) {
+  .BlockRecruitment-#{$CSS-ID} {
+    width: 18vw;
+    height: 18vw;
+    margin: 0.5vw;
   }
 }
