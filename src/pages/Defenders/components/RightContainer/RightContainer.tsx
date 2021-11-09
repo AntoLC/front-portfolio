@@ -16,10 +16,10 @@ export const RightContainer = () => {
     }, [defenderVisibility]);
 
     return (
-    <div className={ "RightContainer-" + global.app_config.CSS_ID + visibility +" p-7 overflow-hidden w-full min-h-screen sm:min-h-full absolute top-0 rounded-3xl md:inset-0 md:rounded-none md:rounded-r-3xl md:block md:min-h-0 "}>
+    <div className={ "RightContainer-" + global.app_config.CSS_ID + visibility +" p-7 overflow-hidden w-full min-h-screen sm:min-h-full absolute top-0 rounded-3xl md:inset-0 md:rounded-none md:rounded-r-3xl md:block md:min-h-0 lg:relative"}>
         <div className="relative">
             <div className="text-right">
-                <span className="material-icons text-white cursor-pointer text-sm" onClick={()=> setDefenderVisibility(false)}>&#xe5cd;</span>
+                <span className="material-icons text-white cursor-pointer text-sm lg:hidden" onClick={()=> setDefenderVisibility(false)}>&#xe5cd;</span>
             </div>
             <Defender defender={defender}/>
         </div>

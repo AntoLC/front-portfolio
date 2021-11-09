@@ -8,20 +8,10 @@ interface BlockRecruitmentProps {
     defender: DefendersType
 }
 
-/**
- * Click Button - Close
- * - Reduce grid right
- * - Increase scrollrecruitement
- * - right: -375px content grid right
- * - Put Arrow all grey
- * @param props 
- * @returns 
- */
-
 export const BlockRecruitment = (props:BlockRecruitmentProps) => {
     const {defender} = props;
-    const [defenderAtom, setDefenderAtom] = useRecoilState(_defenderAtom);
-    const [defenderVisibility, setDefenderVisibility] = useRecoilState(_defenderVisibilityAtom);
+    const [, setDefenderAtom] = useRecoilState(_defenderAtom);
+    const [, setDefenderVisibility] = useRecoilState(_defenderVisibilityAtom);
 
     return (
         <div className={"BlockRecruitment-" + global.app_config.CSS_ID + " rounded-2xl bg-no-repeat bg-cover bg-center mt-5 inline-block"} style={{ backgroundImage: `url(${process.env.REACT_APP_SRC + defender.src })` }}>

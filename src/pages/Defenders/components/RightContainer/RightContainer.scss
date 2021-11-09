@@ -17,3 +17,13 @@
     }
   }
 }
+
+@media (min-width: $lg) {
+  .RightContainer-#{$CSS-ID} {
+    transform: translateX(0%);
+    width:auto;
+    &.transition{
+      transform: translateX(0%);
+    }
+  }
+}

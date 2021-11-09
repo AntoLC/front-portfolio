@@ -2,13 +2,10 @@ import './CenterContainer.scss';
 import { Agency } from '../Agency/Agency';
 import { SearchBar } from './components/SearchBar/SearchBar';
 import { ScrollBlockRecruitment } from './components/ScrollBlockRecruitment/ScrollBlockRecruitment';
-import { Defenders, _defenderMenuVisibilityAtom, _defenderVisibilityAtom } from '../../DefendersModel';
-import { useEffect, useRef } from 'react';
-import { useRecoilState } from 'recoil';
+import { Defenders } from '../../DefendersModel';
+import { useRef } from 'react';
 
 export const CenterContainer = () => {
-    const [defenderMenuVisibility, setDefenderMenuVisibility] = useRecoilState(_defenderMenuVisibilityAtom);
-    const [defenderVisibility, setDefenderVisibility] = useRecoilState(_defenderVisibilityAtom);
     const CenterContainerRef = useRef<null | HTMLDivElement>(null);
 
     return (

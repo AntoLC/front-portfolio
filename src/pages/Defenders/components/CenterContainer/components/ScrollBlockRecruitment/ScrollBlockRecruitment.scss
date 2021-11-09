@@ -22,3 +22,11 @@
     }
   }
 }
+
+@media (min-width: $lg) {
+  .ScrollBlockRecruitment-#{$CSS-ID} {
+    .scroller{
+      width: 37vw;
+    }
+  }
+}

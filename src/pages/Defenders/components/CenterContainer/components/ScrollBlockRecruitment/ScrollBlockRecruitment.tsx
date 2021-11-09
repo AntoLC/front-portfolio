@@ -46,6 +46,7 @@ export const ScrollBlockRecruitment = (props:BlockRecruitmentProps) => {
                 Array.apply(0, Array(3)).map(function (item, index) {
                     if(!defenderSearch || defenders[index].name.includes(defenderSearch))
                         return <BlockRecruitment key={"BlockRecruitment-"+index} defender={defenders[index]}/>;
+                    else return <></>
                 })
             }
             </div>

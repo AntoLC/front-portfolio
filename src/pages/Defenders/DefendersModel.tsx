@@ -1,4 +1,4 @@
-import { atom, selector, useRecoilCallback } from 'recoil';
+import { atom } from 'recoil';
 import _Defenders from './Defenders.json';
 
 export const Defenders = _Defenders;

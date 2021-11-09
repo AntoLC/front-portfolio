@@ -5,7 +5,7 @@ import './Defenders.scss';
 import { RecoilRoot } from 'recoil';
 
 export const Defenders = () => {
-    const css_base = " justify-center overflow-x-hidden min-h-screen bg-gray-bg flex flex-wrap px-0 ";
+    const css_base = " justify-center overflow-hidden min-h-screen bg-gray-bg flex flex-wrap px-0 ";
     const css_sm = " sm:pt-10 sm:content-center";
     const css_above = " md:pt-14 md:pb-14 md:pb-16 ";
 

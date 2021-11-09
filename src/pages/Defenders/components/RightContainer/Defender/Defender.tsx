@@ -12,15 +12,15 @@ export const Defender = (prop: DefenderProps) => {
     const defender = prop.defender;
     const [defenderVisibility, setDefenderVisibility] = useRecoilState(_defenderVisibilityAtom);
 
+    const handleImageLoaded = () => {
+        //console.debug("TOOO");
+    };
+
     return (
-    <div className={ "Defender-" + global.app_config.CSS_ID + " rounded-3xl sm:rounded-r-3xl p-0 sm:p-7 sm:pb-0"}>
+    <div className={ "Defender-" + global.app_config.CSS_ID + " rounded-3xl sm:rounded-r-3xl p-0 sm:p-7 sm:pb-0 lg:p-3"}>
         <div className="container-point-effect">
             <div className="container-opacity-effect">
-            {
-                defenderVisibility 
-                ? <img className="m-auto w-56" src={process.env.REACT_APP_SRC + defender.src_employ } alt="avenger" />
-                : <></>
-            }
+                <img onLoad={handleImageLoaded} className={"m-auto w-56 lg:w-auto " + ((defenderVisibility) ? "block " : "hidden lg:block") } src={process.env.REACT_APP_SRC + defender.src_employ } alt="avenger" />
             </div>
         </div>
         <div className="uppercase font-sans text-white text-3xl text-center -m-4 mb-0">{defender.name}</div>
