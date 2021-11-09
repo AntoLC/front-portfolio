@@ -2,8 +2,8 @@
 
 .NFT-#{$CSS-ID} {
     background-color: $primary-bg;
-    width: 100vw;
-    height: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
 
     .main-container{
         background: linear-gradient(to right, $second-bg 0%,$third-bg 100%);
