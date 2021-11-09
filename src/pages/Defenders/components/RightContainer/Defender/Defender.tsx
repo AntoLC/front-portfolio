@@ -13,7 +13,7 @@ export const Defender = (prop: DefenderProps) => {
     const [defenderVisibility, setDefenderVisibility] = useRecoilState(_defenderVisibilityAtom);
 
     return (
-    <div className={ "Defender-" + global.app_config.CSS_ID + " rounded-r-3xl p-0 sm:p-7 sm:pb-0"}>
+    <div className={ "Defender-" + global.app_config.CSS_ID + " rounded-3xl sm:rounded-r-3xl p-0 sm:p-7 sm:pb-0"}>
         <div className="container-point-effect">
             <div className="container-opacity-effect">
                 <img className="m-auto" src={process.env.REACT_APP_SRC + defender.src_employ } alt="avenger" />

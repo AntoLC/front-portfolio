@@ -1,6 +1,8 @@
 @import './Defenders-config.scss';
 
 .Defenders-#{$CSS-ID} {
+  max-width: 100vw;
+
   &.bg-gray-bg{
     background-color: #232323;
   }

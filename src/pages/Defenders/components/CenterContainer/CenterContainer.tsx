@@ -29,7 +29,7 @@ export const CenterContainer = () => {
     }, [defenderMenuVisibility, defenderVisibility]);
 
     return (
-    <div ref={CenterContainerRef} className={ "CenterContainer-" + global.app_config.CSS_ID + " p-2 sm:p-7 flex justify-between flex-col"}>
+    <div ref={CenterContainerRef} className={ "CenterContainer-" + global.app_config.CSS_ID + " p-2 sm:p-7 flex justify-between flex-col min-h-screen "}>
         <div>
             <SearchBar/>
             <ScrollBlockRecruitment defenders={Defenders}/>
@@ -38,7 +38,7 @@ export const CenterContainer = () => {
             <div className="flex justify-between mb-5">
                 <span className="font-sans text-xl text-white">Agency Rating</span>
                 <div>
-                    <span className="material-icons text-white cursor-pointer">more_horiz</span>
+                    <span className="material-icons text-white cursor-pointer">&#xe5d3;</span>
                 </div>
             </div>
             {
