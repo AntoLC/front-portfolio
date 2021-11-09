@@ -1,0 +1,9 @@
+@import '../../NFT-config.scss';
+
+.Top-#{$CSS-ID} {
+    .user-container{
+        .form{
+            background-color: $fourth-bg;
+        }
+    }
+}

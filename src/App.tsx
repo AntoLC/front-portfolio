@@ -6,6 +6,7 @@ import {
 import './App.scss';
 import { Defenders } from "./pages/Defenders/Defenders";
 import { Frontpage } from './pages/frontpage/Frontpage';
+import { NFT } from "./pages/NFT/NFT";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <HashRouter>
         <Switch>
           <Route path="*/defenders"><Defenders/></Route>
+          <Route path="*/nft"><NFT/></Route>
           <Route path="/"><Frontpage/></Route>
         </Switch>
       </HashRouter>

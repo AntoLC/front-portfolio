@@ -1,0 +1,12 @@
+@import './NFT-config.scss';
+
+.NFT-#{$CSS-ID} {
+    background-color: $primary-bg;
+    width: 100vw;
+    height: 100vh;
+
+    .main-container{
+        background: linear-gradient(to right, $second-bg 0%,$third-bg 100%);
+        box-shadow: 13px 13px 13px #343054, -4px -5px 18px #26243e;
+    }
+}
