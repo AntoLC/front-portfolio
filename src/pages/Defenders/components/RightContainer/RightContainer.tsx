@@ -16,7 +16,7 @@ export const RightContainer = () => {
     }, [defenderVisibility]);
 
     return (
-    <div className={ "RightContainer-" + global.app_config.CSS_ID + visibility +" min-h-screen sm:block absolute top-0 rounded-3xl sm:rounded-r-3xl p-7 overflow-hidden"}>
+    <div className={ "RightContainer-" + global.app_config.CSS_ID + visibility +" p-7 overflow-hidden w-full min-h-screen sm:min-h-full sm:mb-8 absolute top-0 rounded-3xl md:rounded-r-3xl md:block "}>
         <div className="relative">
             <div className="text-right">
                 <span className="material-icons text-white cursor-pointer text-sm" onClick={()=> setDefenderVisibility(false)}>&#xe5cd;</span>

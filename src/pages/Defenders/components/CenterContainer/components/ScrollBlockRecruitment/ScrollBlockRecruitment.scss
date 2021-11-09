@@ -10,6 +10,14 @@
 @media (min-width: $sm) {
   .ScrollBlockRecruitment-#{$CSS-ID} {
     .scroller{
+      width: 80vw;
+    }
+  }
+}
+
+@media (min-width: $md) {
+  .ScrollBlockRecruitment-#{$CSS-ID} {
+    .scroller{
       width: 38vw;
     }
   }

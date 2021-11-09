@@ -15,8 +15,14 @@ $color-el:#8a929e;
 
 @media (min-width: $sm) {
   .BlockRecruitment-#{$CSS-ID} {
+    width: 39vw;
+    height: 39vw;
+  }
+}
+
+@media (min-width: $md) {
+  .BlockRecruitment-#{$CSS-ID} {
     width: 18vw;
     height: 18vw;
-    margin: 0.5vw;
   }
 }

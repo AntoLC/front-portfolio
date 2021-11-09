@@ -18,7 +18,7 @@ export const LeftContainer = () => {
     }, [defenderMenuVisibility]);
 
     return (
-    <div className={ "LeftContainer-" + global.app_config.CSS_ID + visibility + " min-h-screen absolute top-0 z-10 w-full sm:flex rounded-3xl sm:rounded-l-3xl pt-6 pb-6 justify-between flex-col"}>
+    <div className={ "LeftContainer-" + global.app_config.CSS_ID + visibility + " min-h-screen absolute top-0 z-10 w-full sm:h-full sm:flex rounded-3xl sm:rounded-l-3xl pt-6 pb-6 justify-between flex-col"}>
         <div className="absolute right-5">
             <span className="material-icons text-white cursor-pointer text-sm" onClick={()=> setDefenderMenuVisibility(false)}>&#xe5cd;</span>
         </div>

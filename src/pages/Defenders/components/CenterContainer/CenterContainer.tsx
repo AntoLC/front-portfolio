@@ -11,7 +11,7 @@ export const CenterContainer = () => {
     const [defenderVisibility, setDefenderVisibility] = useRecoilState(_defenderVisibilityAtom);
     const CenterContainerRef = useRef<null | HTMLDivElement>(null);
 
-    useEffect(() => {
+    /*useEffect(() => {
         if(!defenderMenuVisibility && !defenderVisibility && CenterContainerRef.current){
             // console.debug("Yoo", CenterContainerRef.current.clientHeight);
             // console.debug("Yoo1", window.screen.availHeight);
@@ -26,10 +26,10 @@ export const CenterContainer = () => {
         }
 
         return ()=>{};
-    }, [defenderMenuVisibility, defenderVisibility]);
+    }, [defenderMenuVisibility, defenderVisibility]);*/
 
     return (
-    <div ref={CenterContainerRef} className={ "CenterContainer-" + global.app_config.CSS_ID + " p-2 sm:p-7 flex justify-between flex-col min-h-screen "}>
+    <div ref={CenterContainerRef} className={ "CenterContainer-" + global.app_config.CSS_ID + " p-2 flex justify-between flex-col min-h-screen sm:p-7 "}>
         <div>
             <SearchBar/>
             <ScrollBlockRecruitment defenders={Defenders}/>
