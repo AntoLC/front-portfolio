@@ -53,3 +53,9 @@
     }
   }
 }
+
+@media (min-width: $md) {
+  .LeftContainer-#{$CSS-ID} {
+    transform: translateX(0%);
+  }
+}

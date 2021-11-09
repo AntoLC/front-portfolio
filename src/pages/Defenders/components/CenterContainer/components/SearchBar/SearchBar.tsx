@@ -20,7 +20,7 @@ export const SearchBar = () => {
             <div className="flex justify-between items-center">
                 <span className="cursor-pointer notif-icon text-white material-icons border-r-1 border-white pr-1 sm:pr-3">notifications_none</span>
                 <img className="cursor-pointer px-1 sm:px-3" src={user} alt="user-img" />
-                <span className="cursor-pointer text-white searchbar-icon material-icons " onClick={()=> setDefenderMenuVisibility(true)}>&#xe5d3;</span>
+                <span className="cursor-pointer text-white searchbar-icon material-icons md:hidden" onClick={()=> setDefenderMenuVisibility(true)}>&#xe5d3;</span>
             </div>
         </div>
     );

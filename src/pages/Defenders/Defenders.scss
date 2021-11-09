@@ -32,7 +32,15 @@
   }
 }
 
-@media (min-width: $sm) {
+@media (min-width: $md) {
+  .Defenders-#{$CSS-ID} {
+    .container-main{
+      grid-template-columns: 30% auto;
+    }
+  }
+}
+
+@media (min-width: $lg) {
   .Defenders-#{$CSS-ID} {
     .container-main{
       grid-template-columns: 20% auto 33%;

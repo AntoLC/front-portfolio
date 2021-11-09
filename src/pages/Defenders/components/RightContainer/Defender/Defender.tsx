@@ -18,7 +18,7 @@ export const Defender = (prop: DefenderProps) => {
             <div className="container-opacity-effect">
             {
                 defenderVisibility 
-                ? <img className="m-auto" src={process.env.REACT_APP_SRC + defender.src_employ } alt="avenger" />
+                ? <img className="m-auto w-56" src={process.env.REACT_APP_SRC + defender.src_employ } alt="avenger" />
                 : <></>
             }
             </div>
