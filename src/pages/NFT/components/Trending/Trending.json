@@ -1,0 +1,40 @@
+[
+    {
+        "name":"House Of Cards",
+        "price":2.09,
+        "highest":0.009,
+        "src":"nft/t-1.png"
+    },
+    {
+        "name":"Spectre",
+        "price":1.45,
+        "highest":0.009,
+        "src":"nft/t-2.png"
+    },
+    {
+        "name":"Present Tense",
+        "price":3,
+        "highest":0.009,
+        "src":"nft/t-3.png"
+    },
+    {
+        "name":"Starlight hunter",
+        "price":9.01,
+        "highest":0.009,
+        "src":"nft/t-4.png"
+    },
+    {
+        "name":"Soul Snatchers",
+        "price":13.8,
+        "highest":0.022,
+        "src":"nft/t-5.png"
+    },
+    {
+        "name":"Ideoteque",
+        "price":0.99,
+        "highest":0.009,
+        "src":"nft/t-6.png"
+    }
+]
+
+    

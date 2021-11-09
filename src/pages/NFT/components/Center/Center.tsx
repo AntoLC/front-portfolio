@@ -34,6 +34,10 @@ export const Center = () => {
                         </div>
                     </div>
                 </div>
+                <div className="mt-8 text-center">
+                    <button className="button-center-right font-sans px-12 py-4 rounded-3xl mr-3">Place a Bid</button>
+                    <button className="button-center-right font-sans px-12 py-4 rounded-3xl ml-3">View Artwork</button>
+                </div>
             </div>
         </div>
     );
