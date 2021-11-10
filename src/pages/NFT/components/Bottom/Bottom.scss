@@ -3,8 +3,13 @@
 .Bottom-#{$CSS-ID} {
     .border-round{
         border: 2px solid #643ADA;
-        //transform: scale(1.2) rotate(360deg);
-        animation: slidein 6s ease-in-out infinite alternate ;
+
+        &.border-round-1{
+            animation: slidein 6s ease-in-out infinite alternate ;
+        }
+        &.border-round-2{
+            animation: slidein 4s ease-in-out infinite alternate ;
+        }
     }
     .center-right{
         max-width: 50%;
@@ -28,9 +33,9 @@
 
 @keyframes slidein {
     from {
-      transform: scale(1.05) translate(-10px, 10px);
+      transform: scale(1);
     }
     to {
-      transform: scale(1)
+      transform: scale(1.1) translate(-10px, 10px);
     }
 }

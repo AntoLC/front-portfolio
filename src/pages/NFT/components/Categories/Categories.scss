@@ -8,7 +8,9 @@
     .container-scroll{
         height: 320px;
         width: -webkit-fill-available;
-        
+        -webkit-mask-size: 100% 100%;
+        -webkit-mask-image: -webkit-radial-gradient(circle, black 90%, transparent 95%);
+
         .absolute{
             width:1600px;
             transition: all 0.7s ease-in-out;

@@ -11,12 +11,12 @@ export const Bottom = () => {
                     <div className="text-5xl font-semibold tracking-widest">Your First</div>
                     <div className="text-5xl font-semibold tracking-widest">NFTs</div>
                 </div>
-                <div className="text-base text-purple-300 my-4 w-96">
+                <div className="text-sm text-purple-300 my-4 w-96">
                     Set up an Ethereum Wallet. The first step in your NFT journey is to create a digital wallet where you'll securely store the crypto currency that is used to buy, sell, and crea NFTs.
                 </div>
                 <div className="mt-8 text-left">
-                    <button className="button-center-right font-sans px-12 py-4 rounded-3xl mr-3">Learn now</button>
-                    <button className="button-center-right font-sans px-12 py-4 rounded-3xl ml-3">Discover more</button>
+                    <button className="button-center-right font-sans px-8 xl:px-12 py-4 rounded-3xl mr-1 xl:mr-3">Learn now</button>
+                    <button className="button-center-right font-sans px-8 xl:px-12 py-4 rounded-3xl ml-1 xl:ml-3">Discover more</button>
                 </div>
             </div>
             <div className="center-left relative text-center">
