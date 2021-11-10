@@ -6,4 +6,14 @@
             background-color: $fourth-bg;
         }
     }
+
+    .menu-container{
+        span{
+            transition: all 0.4s ease-in-out;
+
+            &:hover{
+                box-shadow: inset 2px 2px 2px #00000055, inset -2px -2px 2px #ffffff33;
+            }
+        }
+    }
 }

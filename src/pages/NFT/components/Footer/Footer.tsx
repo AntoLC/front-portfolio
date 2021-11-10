@@ -25,9 +25,9 @@ export const Footer = () => {
             <div className="">
                 <div className="text-white font-semibold mb-6 cursor-pointer">Join Newsletter</div>
                 <div className="text-purple-400 text-sm ">Lorem ipsum dolor sit amet, consectur adipiscing elit.</div>
-                <div>
-                    <span className="text-white text-sm align-middle cursor-pointer">Activity</span>
-                    <span className="text-white align-middle cursor-pointer">Support</span>
+                <div className="mt-5 subscribe-container px-6 py-2 pr-2 rounded-full flex justify-between items-center">
+                    <input className="bg-transparent text-gray-300 text-sm " placeholder="Enter your email" />
+                    <button className="rounded-full text-white px-6 py-2">Subscribe</button>
                 </div>
             </div>
         </div>

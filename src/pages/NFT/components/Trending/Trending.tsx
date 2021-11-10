@@ -10,7 +10,7 @@ export const Trending = () => {
                     <span className="font-medium text-xl align-middle">Trending Auction</span>
                     <span className="material-icons align-middle ml-4 text-yellow-400">&#xe80e;</span>
                 </div>
-                <span className="text-purple-300 text-sm">View all auction</span>
+                <span className="rounded-full py-2 px-6 v-all text-purple-300 text-sm cursor-pointer">View all auction</span>
             </div>
             <div className="grid gap-8 grid-cols-3">
                 {

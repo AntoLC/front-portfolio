@@ -1,6 +1,5 @@
 import './Bottom.scss';
 import dunno from './img/dunno-hd.png';
-import smLogo from './img/sm-logo.png';
 
 export const Bottom = () => {
     return (
@@ -23,7 +22,7 @@ export const Bottom = () => {
             <div className="center-left relative text-center">
                 <div className="border-round-1 border-round rounded-full w-96 h-96 absolute -top-3 left-10"/>
                 <div className="border-round-2 border-round rounded-full w-96 h-96 absolute -bottom-10 -left-8"/>
-                <img className="relative w-96" src={dunno}/>
+                <img className="relative w-96" src={dunno} alt="dunno"/>
             </div>
         </div>
     );

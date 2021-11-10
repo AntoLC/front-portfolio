@@ -3,7 +3,9 @@
 .Center-#{$CSS-ID} {
     .border-round{
         border: 1px solid #643ADA;
+        animation: slidein 6s ease-in-out infinite alternate ;
     }
+
     .center-right{
         max-width: 50%;
 
@@ -21,5 +23,14 @@
                 border:1px solid #6c72e2;
             }
         }
+    }
+}
+
+@keyframes slidein {
+    from {
+      transform: scale(1.1)
+    }
+    to {
+      transform: scale(1)
     }
 }
