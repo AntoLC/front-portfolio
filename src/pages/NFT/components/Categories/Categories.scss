@@ -10,11 +10,11 @@
         width: -webkit-fill-available;
         
         .absolute{
-            width:120rem;
+            width:1600px;
             transition: all 0.7s ease-in-out;
 
             &.slide-left{
-                transform: translateX(-440px);
+                transform: translateX(-28rem);
             }
         }
 

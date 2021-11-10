@@ -11,9 +11,9 @@ import { Footer } from './components/Footer/Footer';
 export const NFT = () => {
     return (
         <RecoilRoot>
-            <div className={ "NFT-" + global.app_config.CSS_ID + " p-6" }>
-                <div className="main-container w-full h-full rounded-3xl pt-8 max-w-7xl m-auto">
-                    <div className="px-14">
+            <div className={ "NFT-" + global.app_config.CSS_ID + " sm:p-6" }>
+                <div className="main-container w-full h-full sm:rounded-3xl pt-8 max-w-7xl m-auto">
+                    <div className="px-2 sm:px-14">
                         <Top/>
                         <Center/>
                         <Trending/>
