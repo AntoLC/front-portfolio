@@ -1,0 +1,23 @@
+@import '../../NFT-config.scss';
+
+.Categories-#{$CSS-ID} {
+    .arrow{
+        height: fit-content;
+        transition: all 0.7s ease-in-out;
+    }
+    .container-scroll{
+        height: 320px;
+        width: -webkit-fill-available;
+        
+        .absolute{
+            width:120rem;
+            transition: all 0.7s ease-in-out;
+
+            &.slide-left{
+                transform: translateX(-440px);
+            }
+        }
+
+        
+    }
+}

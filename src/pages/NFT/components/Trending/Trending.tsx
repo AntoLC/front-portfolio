@@ -4,7 +4,7 @@ import { Trendings } from './TrendingModel';
 
 export const Trending = () => {
     return (
-        <div className={ "Trending-" + global.app_config.CSS_ID + " mt-12" }>
+        <div className={ "Trending-" + global.app_config.CSS_ID + " mt-24" }>
             <div className="flex justify-between text-white font-sans mb-8 px-4">
                 <div>
                     <span className="font-medium text-xl align-middle">Trending Auction</span>

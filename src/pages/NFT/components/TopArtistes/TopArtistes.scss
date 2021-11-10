@@ -1,5 +1,7 @@
 @import '../../NFT-config.scss';
 
 .TopArtistes-#{$CSS-ID} {
-    
+    .Artiste-#{$CSS-ID}:nth-last-child(-n+3) {
+        border-bottom: 2px solid $primary-bg;
+    }
 }

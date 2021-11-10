@@ -1,10 +1,5 @@
 @import '../../../NFT-config.scss';
 
-.Card-#{$CSS-ID} {
-    background-color: #413b70;
-    box-shadow: 8px 15px 16px #2d2a49, 0px -6px 17px #2e2b4b;
-
-    .border-top{
-        border-top: 1px solid #514988;
-    }
+.Artiste-#{$CSS-ID} {
+    border-top: 2px solid $primary-bg;
 }
