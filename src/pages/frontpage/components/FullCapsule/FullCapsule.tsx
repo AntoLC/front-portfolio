@@ -9,7 +9,7 @@ interface FullCapsuleProps {
 }
 
 export const FullCapsule = (props: FullCapsuleProps) => {
-    const class_adapt = props.isLogo ? " capsule-logo w-32 h-28 m-auto " : " w-52 ";
+    const class_adapt = props.isLogo ? " capsule-logo w-32 h-28 m-auto " : "transform scale-50 w-28 md:scale-75 md:w-40 xl:scale-100 xl:w-52 ";
     
     return (
     <div className={"FullCapsule-" + global.app_config.CSS_ID + " relative "+ class_adapt }>

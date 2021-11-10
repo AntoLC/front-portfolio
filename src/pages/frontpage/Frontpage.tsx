@@ -9,17 +9,17 @@ export const Frontpage = () => {
         <div className="h-10">
             <div className="font-sans text-2xl text-gray-800 font-black mx-5">Capsule</div>
         </div>
-        <div className="form-top-right w-4/12"/>
+        <div className="form-top-right w-80 sm:w-96 h-64"/>
         <div className="absolute right-6 w-36 h-32 top-6">
             <FullCapsule isLogo={true} />
             <div className="font-sans text-3xl text-white font-black text-center">Capsule</div>
         </div>
         <div className="h-screen flex flex-wrap content-center justify-center -m-10">
             <FullCapsule isLogo={false} />
-            <div className="font-sans text-8xl text-gray-800 font-black">Capsule</div>
+            <div className="font-sans text-6xl xl:text-8xl text-gray-800 font-black">Capsule</div>
         </div>
-        <div className="form-bottom-left"/>
-        <div className="container-capsule flex h-40 ml-5">
+        <div className="form-bottom-left w-96 h-60 sm:h-64"/>
+        <div className="transform scale-90 sm:scale-100 container-capsule flex h-40 -ml-4 sm:ml-5">
             <div className="relative -top-6">
                 <FullCapsule isLogo={true} withIngredients={false}/>
                 <div className="font-sans text-white text-center p-2">Letter C</div>
