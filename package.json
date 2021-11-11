@@ -28,7 +28,10 @@
     "test": "craco test",
     "eject": "react-scripts eject",
     "deploy": "git push origin main",
-    "deploy-web": "gh-pages -d build"
+    "deploy-web": "gh-pages -d build",
+    "my-prettier-sm": "yarn prettier --write --print-width 100 ./src/**/*.{js,ts,tsx}",
+    "my-prettier-m": "yarn prettier --write --print-width 160 ./src/**/*.{js,ts,tsx}",
+    "my-prettier-l": "yarn prettier --write --print-width 200 ./src/**/*.{js,ts,tsx}"
   },
   "eslintConfig": {
     "extends": [
@@ -53,6 +56,7 @@
     "autoprefixer": "9",
     "node-sass": "4.14.1",
     "postcss": "7",
+    "prettier": "^2.4.1",
     "sass-loader": "12.1.0"
   }
 }
