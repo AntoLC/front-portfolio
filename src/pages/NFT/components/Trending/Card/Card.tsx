@@ -9,11 +9,11 @@ export const Card = (props: CardProps) => {
     const {trending} = props;
 
     return (
-        <div className={ "Card-" + global.app_config.CSS_ID + " rounded-2xl p-6" }>
+        <div className={ "Card-" + global.app_config.CSS_ID + " rounded-2xl p-2 md:p-4 lg:p-6" }>
             <div className="text-center"><img className="image-card rounded-2xl" src={process.env.REACT_APP_SRC + trending.src } alt="trending"/></div>
-            <div className="flex justify-between font-sans mt-4">
+            <div className="lg:flex justify-between font-sans mt-4">
                 <span className="text-white">{trending.name}</span>
-                <span className="text-purple-300 font-medium">{trending.price} ETH</span>
+                <span className="block lg:inline text-purple-300 font-medium">{trending.price} ETH</span>
             </div>
             <div className="flex justify-between font-sans mt-5">
                 <div className="flex">

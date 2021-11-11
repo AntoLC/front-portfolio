@@ -31,6 +31,9 @@ export const Categories = () => {
         if(!scrollCategory || !scrollCategory.current ) return;
         
         const containerSize = scrollCategory.current?.clientWidth;
+        console.debug("containerSize",containerSize)
+        console.debug("leftCSS",leftCSS)
+        console.debug("-(containerSize - slideValue)",-(containerSize - slideValue))
 
         if(leftCSS > -(containerSize - slideValue)){
             if(leftCSS - slideValue < -(containerSize - slideValue)){
@@ -49,12 +52,12 @@ export const Categories = () => {
     }
 
     return (
-        <div className={ "Categories-" + global.app_config.CSS_ID + " mt-24 text-white" }>
-            <div className="font-medium text-4xl text-center mb-12">Category</div>
+        <div className={ "Categories-" + global.app_config.CSS_ID + " mt-14 lg:mt-24 text-white" }>
+            <div className="font-medium text-4xl text-center mb-2 md:mb-6 xl:mb-12">Category</div>
             <div className="flex justify-around items-center">
                 <button onClick={slideLeft} className={ ((slideL) ? "border-white " : "border-gray-600 ") + " arrow inline-block transform rotate-180 cursor-pointer border-2 rounded-full border-opacity-100 px-2 py-2 leading-4 "} >➜</button>
-                <div ref={scrollCategory} className="container-scroll relative overflow-hidden">
-                    <div className={" absolute pt-6 pl-3 "} style={{ transform: `translateX(${leftCSS}px)`}} >
+                <div  className="container-scroll relative overflow-hidden">
+                    <div ref={scrollCategory} className={" absolute pt-6 pl-3 w-max "} style={{ transform: `translateX(${leftCSS}px)`}} >
                         {
                             _Categories.map(function (item, index) {
                                 return <Card key={"Category-"+index} category={item}/>;

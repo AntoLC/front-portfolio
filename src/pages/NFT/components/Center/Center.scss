@@ -13,10 +13,12 @@
     }
 
     .center-right{
-        max-width: 50%;
+        //max-width: 50%;
 
         .border-center-right{
-            border-left: 2px solid #643ADA;
+            //border-left: 2px solid #643ADA;
+            border-color: #643ADA;
+            border-left-style: solid;
         }
 
         .button-center-right {
