@@ -16,8 +16,8 @@ export const Bottom = () => {
                     Set up an Ethereum Wallet. The first step in your NFT journey is to create a digital wallet where you'll securely store the crypto currency that is used to buy, sell, and crea NFTs.
                 </div>
                 <div className="mt-8 text-center md:text-left">
-                    <button className="button-center-right font-sans w-44 sm:w-32 md:w-36 lg:w-44 py-4 rounded-3xl mr-1 xl:mr-3">Learn now</button>
-                    <button className="button-center-right font-sans w-44 sm:w-32 md:w-36 lg:w-44 py-4 rounded-3xl ml-1 xl:ml-3">Discover more</button>
+                    <button className="button-center-right font-sans w-28 sm:w-32 text-xs sm:text-base md:w-36 lg:w-44 py-4 rounded-3xl mr-1 xl:mr-3">Learn now</button>
+                    <button className="button-center-right font-sans w-28 sm:w-32 text-xs sm:text-base md:w-36 lg:w-44 py-4 rounded-3xl ml-1 xl:ml-3">Discover more</button>
                 </div>
             </div>
             <div className="hidden sm:block center-left relative text-center">
