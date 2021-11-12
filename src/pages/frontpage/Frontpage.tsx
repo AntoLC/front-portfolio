@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Capsule } from "./components/Capsule/Capsule";
 import { FullCapsule } from "./components/FullCapsule/FullCapsule";
 import { Ingredients } from "./components/Ingredients/Ingredients";
@@ -45,7 +46,4 @@ export const Frontpage = () => {
     </div>
   );
 };
-function useEffect(arg0: () => void, arg1: never[]) {
-  throw new Error("Function not implemented.");
-}
 
