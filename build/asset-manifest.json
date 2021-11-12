@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/front-portfolio/static/css/main.d360b2d8.chunk.css",
-    "main.js": "/front-portfolio/static/js/main.99e451ed.chunk.js",
-    "main.js.map": "/front-portfolio/static/js/main.99e451ed.chunk.js.map",
-    "runtime-main.js": "/front-portfolio/static/js/runtime-main.40c1c8c3.js",
-    "runtime-main.js.map": "/front-portfolio/static/js/runtime-main.40c1c8c3.js.map",
-    "static/js/2.82bb327b.chunk.js": "/front-portfolio/static/js/2.82bb327b.chunk.js",
-    "static/js/2.82bb327b.chunk.js.map": "/front-portfolio/static/js/2.82bb327b.chunk.js.map",
-    "static/js/3.7ceece04.chunk.js": "/front-portfolio/static/js/3.7ceece04.chunk.js",
-    "static/js/3.7ceece04.chunk.js.map": "/front-portfolio/static/js/3.7ceece04.chunk.js.map",
+    "main.css": "/front-portfolio/static/css/main.6666e3c2.chunk.css",
+    "main.js": "/front-portfolio/static/js/main.87f658a8.chunk.js",
+    "main.js.map": "/front-portfolio/static/js/main.87f658a8.chunk.js.map",
+    "runtime-main.js": "/front-portfolio/static/js/runtime-main.47fc9c80.js",
+    "runtime-main.js.map": "/front-portfolio/static/js/runtime-main.47fc9c80.js.map",
+    "static/js/2.3fe4aa7b.chunk.js": "/front-portfolio/static/js/2.3fe4aa7b.chunk.js",
+    "static/js/2.3fe4aa7b.chunk.js.map": "/front-portfolio/static/js/2.3fe4aa7b.chunk.js.map",
+    "static/js/3.9a773eb5.chunk.js": "/front-portfolio/static/js/3.9a773eb5.chunk.js",
+    "static/js/3.9a773eb5.chunk.js.map": "/front-portfolio/static/js/3.9a773eb5.chunk.js.map",
     "index.html": "/front-portfolio/index.html",
-    "static/css/main.d360b2d8.chunk.css.map": "/front-portfolio/static/css/main.d360b2d8.chunk.css.map",
-    "static/js/2.82bb327b.chunk.js.LICENSE.txt": "/front-portfolio/static/js/2.82bb327b.chunk.js.LICENSE.txt",
+    "static/css/main.6666e3c2.chunk.css.map": "/front-portfolio/static/css/main.6666e3c2.chunk.css.map",
+    "static/js/2.3fe4aa7b.chunk.js.LICENSE.txt": "/front-portfolio/static/js/2.3fe4aa7b.chunk.js.LICENSE.txt",
     "static/media/brain-hd.png": "/front-portfolio/static/media/brain-hd.129c3b5a.png",
     "static/media/dunno-hd.png": "/front-portfolio/static/media/dunno-hd.33cd6e2d.png",
     "static/media/spiderman.png": "/front-portfolio/static/media/spiderman.bae60b0e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.40c1c8c3.js",
-    "static/js/2.82bb327b.chunk.js",
-    "static/css/main.d360b2d8.chunk.css",
-    "static/js/main.99e451ed.chunk.js"
+    "static/js/runtime-main.47fc9c80.js",
+    "static/js/2.3fe4aa7b.chunk.js",
+    "static/css/main.6666e3c2.chunk.css",
+    "static/js/main.87f658a8.chunk.js"
   ]
 }

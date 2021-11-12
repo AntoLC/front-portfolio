@@ -4,6 +4,10 @@ import { Ingredients } from "./components/Ingredients/Ingredients";
 import "./Frontpage.scss";
 
 export const Frontpage = () => {
+  useEffect(() => {
+    document.title = "Landing Page Capsule";
+  }, []);
+
   return (
     <div className={"Frontpage-" + global.app_config.CSS_ID + " h-screen"}>
       <div className="h-10">
@@ -41,3 +45,7 @@ export const Frontpage = () => {
     </div>
   );
 };
+function useEffect(arg0: () => void, arg1: never[]) {
+  throw new Error("Function not implemented.");
+}
+

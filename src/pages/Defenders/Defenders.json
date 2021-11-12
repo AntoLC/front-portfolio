@@ -12,18 +12,6 @@
         "mind":5
     },
     {
-        "name":"Thing",
-        "star":3,
-        "agency":"Fantastic Four",
-        "agency_logo":"gpp_maybe",
-        "src":"defenders/fourf.jpg",
-        "src_employ":"defenders/thing.png",
-        "guarding": 10,
-        "aggression": 7,
-        "courage":8,
-        "mind":7
-    },
-    {
         "name":"Hulk",
         "star":5,
         "agency":"The Shield",
@@ -34,6 +22,18 @@
         "aggression": 10,
         "courage":10,
         "mind":2
+    },
+    {
+        "name":"Thing",
+        "star":3,
+        "agency":"Fantastic Four",
+        "agency_logo":"gpp_maybe",
+        "src":"defenders/fourf.jpg",
+        "src_employ":"defenders/thing.png",
+        "guarding": 10,
+        "aggression": 7,
+        "courage":8,
+        "mind":7
     }
 ]
 

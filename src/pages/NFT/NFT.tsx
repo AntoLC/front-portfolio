@@ -7,8 +7,13 @@ import { TopArtistes } from "./components/TopArtistes/TopArtistes";
 import { Bottom } from "./components/Bottom/Bottom";
 import { Categories } from "./components/Categories/Categories";
 import { Footer } from "./components/Footer/Footer";
+import { useEffect } from "react";
 
 export const NFT = () => {
+  useEffect(() => {
+    document.title = "Landing Page NFT";
+  }, []);
+
   return (
     <RecoilRoot>
       <div className={"NFT-" + global.app_config.CSS_ID + " sm:p-6"}>
