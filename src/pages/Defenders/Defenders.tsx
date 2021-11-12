@@ -17,10 +17,10 @@ export const Defenders = () => {
   return (
     <RecoilRoot>
       <div className={"Defenders-" + global.app_config.CSS_ID + css_base + css_sm + css_above}>
-        <div className="container-big-main w-full h-full sm:w-11/12 sm:h-4/5 rounded-3xl relative">
+        <div className="container-big-main w-full h-full sm:w-11/12 sm:h-4/5 rounded-3xl relative sm:max-w-7xl">
           <div className="hidden container-shadow-1 absolute w-full h-full rounded-3xl sm:block "></div>
           <div className="hidden container-shadow-2 absolute w-full h-full rounded-3xl sm:block "></div>
-          <div className="block container-main relative w-full min-h-screen h-full sm:rounded-3xl md:grid ">
+          <div className="block container-main relative w-full h-full sm:rounded-3xl md:grid ">
             <LeftContainer />
             <CenterContainer />
             <RightContainer />

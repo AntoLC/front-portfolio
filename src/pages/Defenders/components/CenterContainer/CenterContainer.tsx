@@ -9,7 +9,7 @@ export const CenterContainer = () => {
   const CenterContainerRef = useRef<null | HTMLDivElement>(null);
 
   return (
-    <div ref={CenterContainerRef} className={"CenterContainer-" + global.app_config.CSS_ID + " p-2 flex justify-between flex-col min-h-screen sm:p-7 "}>
+    <div ref={CenterContainerRef} className={"CenterContainer-" + global.app_config.CSS_ID + " p-2 flex justify-between flex-col sm:p-7 "}>
       <div>
         <SearchBar />
         <ScrollBlockRecruitment defenders={Defenders} />

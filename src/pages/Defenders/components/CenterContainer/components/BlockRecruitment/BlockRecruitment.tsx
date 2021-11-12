@@ -18,7 +18,7 @@ export const BlockRecruitment = (props: BlockRecruitmentProps) => {
       className={"BlockRecruitment-" + global.app_config.CSS_ID + " rounded-2xl bg-no-repeat bg-cover bg-center mt-5 inline-block"}
       style={{ backgroundImage: `url(${process.env.REACT_APP_SRC + defender.src})` }}
     >
-      <div className="container-filter p-2 sm:p-4 flex justify-between flex-col">
+      <div className="container-filter p-2 sm:p-4 flex justify-between flex-col h-full">
         <div>
           <p className="font-sans text-white">{defender.name}</p>
           {<Stars number={defender.star} />}

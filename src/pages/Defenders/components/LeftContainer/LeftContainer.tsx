@@ -23,7 +23,7 @@ export const LeftContainer = () => {
         "LeftContainer-" +
         global.app_config.CSS_ID +
         visibility +
-        " rounded-3xl pt-6 pb-6 justify-between flex-col min-h-screen absolute top-0 z-10 w-full sm:h-full sm:flex md:rounded-none md:rounded-l-3xl md:relative"
+        " rounded-3xl pt-6 pb-6 justify-between flex-col absolute top-0 z-10 w-full sm:h-full sm:flex md:rounded-none md:rounded-l-3xl md:relative"
       }
     >
       <div className="absolute right-5 md:hidden">

@@ -21,7 +21,7 @@ export const RightContainer = () => {
         "RightContainer-" +
         global.app_config.CSS_ID +
         visibility +
-        " p-7 overflow-hidden w-full min-h-screen sm:min-h-full absolute top-0 rounded-3xl md:inset-0 md:rounded-none md:rounded-r-3xl md:block md:min-h-0 lg:relative"
+        " p-7 overflow-hidden w-full sm:min-h-full absolute top-0 rounded-3xl md:inset-0 md:rounded-none md:rounded-r-3xl md:block md:min-h-0 lg:relative"
       }
     >
       <div className="relative">

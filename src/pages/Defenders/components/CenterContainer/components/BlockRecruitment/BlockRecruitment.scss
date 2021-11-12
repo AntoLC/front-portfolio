@@ -9,7 +9,6 @@ $color-el:#8a929e;
   
   .container-filter{
     backdrop-filter: brightness(0.7);
-    height: inherit;
   }
 }
 
@@ -31,5 +30,7 @@ $color-el:#8a929e;
   .BlockRecruitment-#{$CSS-ID} {
     width: 18vw;
     height: 18vw;
+    max-width: 257px;
+    max-height: 257px;
   }
 }
