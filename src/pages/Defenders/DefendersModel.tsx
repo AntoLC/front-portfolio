@@ -16,7 +16,7 @@ export type DefendersType = {
   mind: number;
 };
 
-const defenderKey = "defender";
+export const defenderKey = "defender";
 export const _defenderAtom = atom({
   key: defenderKey,
   default: Defenders[0],

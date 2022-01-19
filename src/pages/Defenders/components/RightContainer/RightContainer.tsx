@@ -26,9 +26,13 @@ export const RightContainer = () => {
     >
       <div className="relative">
         <div className="text-right">
-          <span className="material-icons text-white cursor-pointer text-sm lg:hidden" onClick={() => setDefenderVisibility(false)}>
+          <button
+            data-testid="hide-defender"
+            className="material-icons text-white cursor-pointer text-sm lg:hidden"
+            onClick={() => setDefenderVisibility(false)}
+          >
             &#xe5cd;
-          </span>
+          </button>
         </div>
         <Defender defender={defender} />
       </div>

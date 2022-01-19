@@ -8,8 +8,7 @@ interface BlockRecruitmentProps {
   defender: DefendersType;
 }
 
-export const BlockRecruitment = (props: BlockRecruitmentProps) => {
-  const { defender } = props;
+export const BlockRecruitment = ({ defender }: BlockRecruitmentProps) => {
   const [, setDefenderAtom] = useRecoilState(_defenderAtom);
   const [, setDefenderVisibility] = useRecoilState(_defenderVisibilityAtom);
 
@@ -29,6 +28,7 @@ export const BlockRecruitment = (props: BlockRecruitmentProps) => {
           </div>
         </div>
         <Button
+          testid="show-defender"
           onClick={() => {
             setDefenderAtom(defender);
             setDefenderVisibility(true);

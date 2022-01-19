@@ -1,9 +1,12 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
 import App from "./App";
+import config from "./config.module.scss";
+global.app_config = { CSS_ID: config.CSS_ID };
 
-test("renders learn react link", () => {
+test("Render Website Correctly", () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+
+  const linkElement = screen.getAllByText(/Capsule/i);
+  expect(linkElement.length).toBeGreaterThan(0);
 });

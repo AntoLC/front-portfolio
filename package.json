@@ -26,19 +26,23 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
+    "testCoverage": "craco test --coverage",
     "eject": "react-scripts eject",
     "deploy": "git push origin main",
     "deploy-web": "gh-pages -d build",
     "my-prettier-sm": "yarn prettier --write --print-width 100 ./src/**/*.{js,ts,tsx}",
     "my-prettier-m": "yarn prettier --write --print-width 160 ./src/**/*.{js,ts,tsx}",
     "my-prettier-l": "yarn prettier --write --print-width 200 ./src/**/*.{js,ts,tsx}",
-    "upgrade-packages": "yarn upgrade-interactive --latest"
+    "upgrade-packages": "yarn upgrade-interactive --latest",
+    "gitAdd": "yarn lint && yarn my-prettier-m && git add .",
+    "lint": "eslint src --ext .js,.ts,.tsx"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "parser": "@typescript-eslint/parser"
   },
   "browserslist": {
     "production": [

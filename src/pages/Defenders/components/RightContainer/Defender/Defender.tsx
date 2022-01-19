@@ -8,20 +8,14 @@ interface DefenderProps {
   defender: DefendersType;
 }
 
-export const Defender = (prop: DefenderProps) => {
-  const defender = prop.defender;
+export const Defender = ({ defender }: DefenderProps) => {
   const [defenderVisibility, setDefenderVisibility] = useRecoilState(_defenderVisibilityAtom);
-
-  const handleImageLoaded = () => {
-    //console.debug("TOOO");
-  };
 
   return (
     <div className={"Defender-" + global.app_config.CSS_ID + " rounded-3xl sm:rounded-r-3xl p-0 sm:p-7 sm:pb-0 lg:p-3"}>
       <div className="container-point-effect">
         <div className="container-opacity-effect">
           <img
-            onLoad={handleImageLoaded}
             className={"m-auto w-56 lg:w-auto " + (defenderVisibility ? "block " : "hidden lg:block")}
             src={process.env.REACT_APP_SRC + defender.src_employ}
             alt="avenger"
@@ -62,6 +56,7 @@ export const Defender = (prop: DefenderProps) => {
       </div>
       <div className="text-center mt-5">
         <Button
+          testid="employ-defender"
           onClick={() => {
             setDefenderVisibility(false);
           }}
