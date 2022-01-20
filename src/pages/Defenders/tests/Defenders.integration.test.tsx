@@ -72,7 +72,7 @@ describe("Integration Test Defenders", () => {
     fireEvent.click(screen.getByTestId("show-defender"));
     fireEvent.click(screen.getByTestId("employ-defender"));
 
-    expect(onClick).toHaveBeenCalledTimes(3);
+    expect(onClick).toHaveBeenCalledTimes(2);
     // Init RecoilObserver call
     expect(onClick).toHaveBeenCalledWith(false);
     // Click on Employ
