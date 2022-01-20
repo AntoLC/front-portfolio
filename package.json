@@ -34,7 +34,7 @@
     "my-prettier-m": "yarn prettier --write --print-width 160 ./src/**/*.{js,ts,tsx}",
     "my-prettier-l": "yarn prettier --write --print-width 200 ./src/**/*.{js,ts,tsx}",
     "upgrade-packages": "yarn upgrade-interactive --latest",
-    "gitAdd": "yarn lint && yarn my-prettier-m && git add .",
+    "gitAdd": "yarn test --watchAll=false && yarn lint && yarn my-prettier-m && git add .",
     "lint": "eslint src --ext .js,.ts,.tsx"
   },
   "eslintConfig": {
